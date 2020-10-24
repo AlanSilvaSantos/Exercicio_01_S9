@@ -19,7 +19,7 @@ namespace S9_Exercicios_01_01.Entities
             Hours = hours;
         }
 
-        private double TotalValue()
+        public double TotalValue()
         {
             return Hours * ValuePerHour;
         }
